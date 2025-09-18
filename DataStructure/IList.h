@@ -2,7 +2,7 @@
 #define ILIST_H
 #define OK 1
 #define ERROR 0
-
+using namespace std;
 typedef int Status;
 typedef int ElemType;
 

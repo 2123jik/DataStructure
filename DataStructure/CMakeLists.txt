@@ -3,7 +3,7 @@
 #
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (DataStructure "DataStructure.cpp" "DataStructure.h" "SeqList.h" "SeqList.cpp" "IList.h" "LinkList.h" "LinkList.cpp")
+add_executable (DataStructure "DataStructure.cpp" "DataStructure.h" "SeqList.h"  "IList.h" "LinkList.h" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET DataStructure PROPERTY CXX_STANDARD 20)
